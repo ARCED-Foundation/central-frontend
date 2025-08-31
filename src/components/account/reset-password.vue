@@ -80,6 +80,46 @@ export default {
 };
 </script>
 
+<style scoped>
+
+
+/***********Login form***************/
+
+.panel-default .panel-heading {
+    background-color: #eee;
+    color: #000000;
+}
+
+.btn-primary {
+    background-color: #000000 !important;
+    color: #fff !important;
+}
+
+
+.btn-link {
+    color: #000000 !important;
+}
+
+
+/**************end****************** */
+
+
+  .row {
+    position: fixed;
+    inset: 0px;
+    /* width: 12rem; */
+    height: 22rem;
+    max-width: 100vw;
+    max-height: 100dvh;
+    margin: auto;
+    /* margin-right: -15px; */
+    /* margin-left: -15px; */
+}
+
+
+</style>
+
+
 <i18n lang="json5">
 {
   "en": {

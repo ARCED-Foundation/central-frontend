@@ -44,7 +44,8 @@ defineProps({
   position: relative;
 
   @mixin page-section-heading {
-    color: $color-accent-primary;
+    //color: $color-accent-primary;
+    color: #682B86;
     font-weight: 600;
 
     + .btn { margin-left: 24px; }

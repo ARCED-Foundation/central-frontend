@@ -82,6 +82,13 @@ const submit = () => {
 };
 </script>
 
+<style>
+.btn-primary{
+  background-color: #000000 !important;
+  font-size: 14px !important;
+}
+</style>
+
 <i18n lang="json5">
 {
   "en": {
@@ -222,3 +229,4 @@ const submit = () => {
   }
 }
 </i18n>
+

@@ -46,7 +46,7 @@ export default {
 @import '../../../assets/scss/mixins';
 
 .home-summary-item {
-  padding: 16px;
+  padding: 14px;
   background-color: white;
   border-radius: 12px;
   border: 1px solid #E3E4E4;
@@ -61,6 +61,8 @@ export default {
     > [class^="icon-"] {
       @include icon-box;
       font-size: 24px;
+      color: #000000!important;
+      background-color: #F0F1F1 !important;
     }
   }
 
@@ -72,7 +74,7 @@ export default {
   }
 
   .body {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 16px;
     margin-bottom: 0;
   }
