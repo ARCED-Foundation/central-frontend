@@ -23,7 +23,7 @@ except according to the terms contained in the LICENSE file.
             <span class="navbar-icon-bar"></span>
           </button>
           <!--<img src="/logo.png" alt="">-->
-          <router-link to="/" class="navbar-brand"><img src="/logo-b.png" alt=""> ODK Central | ARCED</router-link>
+          <router-link to="/" class="navbar-brand"><img class="arced-header-logo" src="/logo-b.png" alt=""> ODK Central | ARCED</router-link>
         </div>
         <div class="collapse navbar-collapse">
           <navbar-links v-if="visiblyLoggedIn"/>
@@ -272,7 +272,7 @@ $border-height: 3px;
 
 /***********logo add******************/
 
-img { width: 46px !important; height: 46px !important; position: absolute !important; top: 0px !important; left: -50px !important;padding: 2px; }
+.arced-header-logo { width: 46px !important; height: 46px !important; position: absolute !important; top: 0px !important; left: -50px !important;padding: 2px; }
 
 .dropdown-menu {
     font-size: 14px !important;
