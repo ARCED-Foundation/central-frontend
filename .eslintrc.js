@@ -11,7 +11,8 @@ module.exports = {
     $: 'readonly',
     alert: 'readonly',
     document: 'readonly',
-    window: 'readonly'
+    window: 'readonly',
+    defineModel: 'readonly'
   },
   rules: {
     'arrow-parens': 'off',
@@ -44,6 +45,7 @@ module.exports = {
     'operator-linebreak': ['error', 'after', {
       overrides: { '?': 'before', ':': 'before' }
     }],
+    'prefer-object-has-own': 'error',
     'space-before-function-paren': ['error', {
       anonymous: 'never',
       named: 'never',

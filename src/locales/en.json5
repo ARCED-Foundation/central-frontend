@@ -113,6 +113,10 @@
         "update": "Update",
         "update_publish": "Publish"
       },
+      "entity": {
+        "bulk_delete": "Bulk Delete",
+        "bulk_restore": "Bulk Restore"
+      },
       // This is shown in the log of actions performed on the server. It is a
       // type of action that can be taken on an App User.
       "field_key": {
@@ -227,7 +231,10 @@
     "expand": "Expand",
     "collapse": "Collapse",
     // @transifexKey component.FormTrashRow.action.restore
-    "restore": "Restore"
+    "restore": "Restore",
+    "selectRow": "Select row",
+    // This text is shown on a button that resets the data filters
+    "reset": "Reset"
   },
   "field": {
     "comment": "Leave a comment…",
@@ -358,7 +365,8 @@
       // "This" refers to improving Central.
       "full": "To do this, we need {your} feedback, so that we can understand how you are using Central, and how it could be better for you.",
       "your": "your"
-    }
+    },
+    "mailingListOptIn": "Send me occasional emails about new features and best practices."
   },
   "submission": {
     // This is a possible state for a Submission. It means that the Submission
@@ -407,6 +415,7 @@
     "data": "Data",
     // This is the text of a link that links to the documentation.
     "docs": "Docs",
+    "emptyMap": "No map data available yet.",
     // This is shown when the value of an Entity property is empty.
     "emptyValue": "(empty)",
     "error": "Error",
@@ -416,6 +425,7 @@
     "forum": "Forum",
     "lastUpdate": "Last update",
     "loading": "Loading…",
+    "map": "Map",
     "no": "No",
     // This is shown if a search returned no results.
     "noResults": "No results",
@@ -434,6 +444,7 @@
     "tab": {
       "settings": "Settings"
     },
+    "table": "Table",
     "total": "Total",
     "totalSubmissions": "Total Submissions",
     // {inform} is the number of Entity Properties defined by the form.
